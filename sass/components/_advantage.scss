@@ -1,0 +1,62 @@
+.advantage {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+
+    &__our-title {
+  
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.14;
+      letter-spacing: 0.03em;
+      text-align: left;
+      color: var(--second-text-color);
+      text-transform: uppercase;
+    }
+
+
+
+    &__our-text {
+      font-size: 14px;
+      line-height: 1.71;
+      letter-spacing: 0.03em;
+      text-align: left;
+      color: var(--primary-text-color);
+    }
+
+    &__icon-chem {
+      width: 70px;
+      height: 70px;
+    }
+
+    &__thumb {
+  
+      display: flex;
+      height: 120px;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--background-color-btn);
+    }
+
+    &>&__item-chem:not(:last-child) {
+      margin-right: 30px;
+      
+    }
+
+    &>.team__item-t+.team__item-t {
+      margin-left: 30px;
+    }
+
+    &--advantage__thumb {
+      margin-bottom: 30px;
+    }
+
+    &--advantage__our-text {
+      margin-top: 10px;
+    }
+    
+  }
+
+
+
+  

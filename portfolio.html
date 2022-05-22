@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    
+   
+</head>
+  <body>
+    <!--Section header-->
+    <header class="header">
+      
+      <div class="container">
+       <div class="header__nav">
+     <nav class="nav">
+       
+      <a href="./index.html" class="nav__logo">Web<span class="nav__logo-text">Studio</span>
+      </a>
+       <ul class="nav__links header__nav--nav__links">
+        <li class="nav__item"><a href="./index.html" class="nav__link nav__link--activ">Студия</a></li>
+        <li class="nav__item"><a href="./portfolio.html" class="nav__link-current nav__link-current--activ">Портфолио</a></li>
+        <li class="nav__item"><a href="#" class="nav__link nav__link--activ">Контакты</a></li>
+       </ul>
+     </nav>
+     
+      <ul class="contact header__nav--contact">
+        
+        <li class="contact__item-contact">
+           <a href="mailto:" class="contact__mail contact__link">
+            <svg class="contact__icon-post contact--contact__icon-post" width="16" height="12">
+              <use href="./images/post_tel.svg#envel"></use>
+                </svg>info@devstudio.com</a></li>
+
+        <li class="contact__item-contact contact-tel">
+          <a href="tel:+380961111111" class="contact__tel contact__link">
+            <svg class="contact__icon-post contact--contact__icon-post" width="10" height="16">
+              <use href="./images/post_tel.svg#vector"></use>
+                </svg> +38 096 111 11 11</a></li>
+      </ul>
+    </div> 
+    </div>
+    
+  
+  </header>
+     <!--Section our-projeckts-->
+    
+      <main class="our-projects">
+        <section class="univer">
+          <div class="container">
+                     
+        <h1 class="projects-transparent">Наши проекты</h1>
+        <!--Section Filters-->
+          
+            <ul class="buttons">
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Все</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Веб-сайты</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Приложения</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Дизайн</span></button></li>
+              <li class="buttons__projects-item"><button class="buttons__button" type="button"><span class="buttons__name">Маркетинг</span></button></li>
+            </ul>
+           
+          
+        <!--Section Projects-->
+        
+          <ul class="grid">
+
+           <li class="grid__item-card">
+            <div class="grid__card">
+            <a class="grid__send-card" href="">
+              <div class="actions">
+                 <img src="./images/pho1.jpg" width="370" alt="Вид"/>
+                 <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                   </p>
+              </div>
+                   <div class="grid__div">  
+                     <h2 class="grid__card-name">Технокряк</h2>
+                     <p class="grid__text-card grid--grid__text-card">Веб-сайт</p>
+                   </div>
+            </a>
+          </div>
+            </li>
+              
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+               
+              <div class="actions">
+                <img src="./images/pho2.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+             </div>
+              
+              <div class="grid__div">
+               <h2 class="grid__card-name">Постер New Orlean vs Golden Star</h2>
+               <p class="grid__text-card grid--grid__text-card">Дизайн</p>
+              </div>
+
+             </a>
+            </div>
+            </li>
+ 
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+              <div class="actions"> 
+              <img src="./images/pho3.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+              
+              
+              <div class="grid__div">  
+               <h2 class="grid__card-name">Ресторан Seafood</h2>
+               <p class="grid__text-card grid--grid__text-card">Приложение</p>
+              </div>
+
+              <div class="actions">
+                <div class="actions__over">
+                 <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                   </p>
+                </div>
+               </div>
+            </a>
+          </div>
+          </li>
+
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+              <div class="actions">
+                <img src="./images/pho4.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+             </div>
+              
+              
+              <div class="grid__div">    
+               <h2 class="grid__card-name">Проект Prime</h2>
+               <p class="grid__text-card grid--grid__text-card">Маркетинг</p>
+              </div>
+
+              <div class="actions">
+                <div class="actions__over">
+                 <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                   </p>
+                </div>
+               </div>
+            </a>
+          </div>
+          </li>
+
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+              <div class="actions">
+                <img src="./images/pho5.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+             </div>
+              
+              <div class="grid__div">
+               <h2 class="grid__card-name">Проект Boxes</h2>
+               <p class="grid__text-card grid--grid__text-card">Приложение</p>
+              </div>
+
+              <div class="actions">
+                <div class="actions__over">
+                 <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                   </p>
+                </div>
+               </div>
+            </a>
+          </div>
+          </li>
+
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+              <div class="actions">
+                <img src="./images/pho6.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+             </div>
+              <div class="grid__div">
+                <h2 class="grid__card-name">Inspiration has no Borders</h2>
+                <p class="grid__text-card grid--grid__text-card">Веб-сайт</p>
+              </div>
+
+              <div class="actions">
+                <div class="actions__over">
+                 <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                   </p>
+                </div>
+               </div>
+            </a>
+          </div>
+          </li>
+
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+              <div class="actions">
+                <img src="./images/pho7.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+             </div>
+              <div class="grid__div">
+                <h2 class="grid__card-name">Издание Limited Edition</h2>
+                <p class="grid__text-card grid--grid__text-card">Дизайн</p>
+              </div>
+
+
+            </a>
+          </div>
+          </li>
+
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+              <div class="actions">
+                <img src="./images/pho8.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+             </div>
+              <div class="grid__div">
+               <h2 class="grid__card-name">Проект LAB</h2>
+               <p class="grid__text-card grid--grid__text-card">Дизайн</p>
+              </div>
+
+
+            </a>
+          </div>
+          </li>
+
+           <li class="grid__item-card">
+            <div class="grid__card">
+             <a class="grid__send-card" href="">
+              <div class="actions">
+                <img src="./images/pho9.jpg" width="370" alt="Вид"/>
+                <p class="actions__modal-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                  </p>
+             </div>
+              <div class="grid__div">
+               <h2 class="grid__card-name">Growing Business</h2>
+               <p class="grid__text-card grid--grid__text-card">Приложение</p>
+              </div>
+  
+            </a>
+           </div>
+          </li>
+        </ul>
+          
+        </div>
+          
+        </section> 
+      </main>
+     
+    <!--Section Footer-->
+    <footer class="footer">
+ 
+      <div class="container footer__block">
+    
+        <div class="logo-address">
+            <a href="./index.html" class="logo-address__logo-footer">Web<span class="logo-address__logo-footer-text">Studio</span></a>
+            <address class="logo-address__address logo-address--logo-address__address">
+              <ul class="logo-address__list logo-address__search">
+                <li class="logo-address__item-footer"><a href="Адрес" class="logo-address__search logo-address__search--add">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="logo-address__item-footer"><a href="mailto:" class="logo-address__search logo-address__search--opacity">info@devstudio.com</a></li>
+                <li class="logo-address__item-footer"><a href="tel:+380961111111" class="logo-address__search logo-address__search--opacity">+38 096 111 11 11</a></li>
+              </ul>
+            </address>
+       
+      </div>
+    
+    
+      <div class="social">
+        <p class="social__title">ПРИСОЕДИНЯЙТЕСЬ</p>
+    
+      <ul class="social__site">
+    
+        <li class="social__item-site">
+          <a class="social__item-link" href="">
+            <svg class="social__icon social--social__icon" width="20" height="20" >
+              <use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>        
+                     
+        </li> 
+    
+        <li class="social__item-site"> 
+          <a class="social__item-link" href="">
+            <svg class="social__icon social--social__icon" width="20" height="20" >
+              <use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a>        
+        </li> 
+    
+        <li class="social__item-site">
+          <a class="social__item-link" href="">
+            <svg class="social__icon social--social__icon" width="20" height="20" >
+              <use href="./images/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>  
+    
+                   
+        </li> 
+    
+        <li class="social__item-site">
+          <a class="social__item-link" href="">
+            <svg class="social__icon social--social__icon" width="20" height="20" >
+              <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+          </a>  
+                            
+      </li> 
+    </ul>
+    
+      </div>
+    
+    
+    
+    
+      <div class="form-send">
+        <p class="form-send__title form-send--form-send__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+        <form>
+          <div class="form-send__send">
+          <input class="form-send__input-send form-send--form-send__input-send form-send__mail-send" type="email" placeholder="E-mail"/>
+          
+          <button type="submit" class="button-send"><span class="button-send__text">Подписаться</span><svg class="button-send__submit-icon-send" width="24" height="24">
+            <use href="./images/symbol-defs (4).svg#icon-send"></use>
+          </svg></button>
+        </div>  
+        </form>
+      </div>
+    </div>
+    
+    
+    
+    
+    </footer>
+  
+    
+  </body>
+</html>
+    

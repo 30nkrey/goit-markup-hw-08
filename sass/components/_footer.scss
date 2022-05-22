@@ -1,0 +1,12 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--background-color-ft);
+    z-index: -1;
+
+    &__block {
+      display: flex;
+      align-items: baseline;
+    }
+
+  }

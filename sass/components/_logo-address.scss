@@ -1,0 +1,68 @@
+.logo-address {
+    position: relative;
+
+    &__list>&__item-footer:not(:last-child) {
+        margin-bottom: 9px;
+      }
+
+      &__logo-footer {
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.17;
+        text-align: left;
+        text-decoration: none;
+        color: var(--accent-color);
+      }
+
+      &__logo-footer{
+        width: 145px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      &__list {
+        display: block;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+      }
+
+      &__search--add {
+        color: var(--background-color);
+      }
+
+      &__search--opacity {
+        color: var(--color-opacity);
+      }
+
+      &__address {
+        text-decoration: none;
+      }
+
+      &__list &__search:hover,
+      &__list &__search:focus { 
+        color: var(--accent-color);
+      }
+
+      &__logo-footer > &__logo-footer-text {
+        color: var(--background-color);
+      }
+    }
+      .logo-address--logo-address__address {
+        margin-top: 20px;
+      }
+
+    
+      
+
+      
+
+      
+
+      
+     
+ 
+      
+      
